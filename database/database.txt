@@ -1,0 +1,9 @@
+Username: NWvMLi6sux
+
+Database name: NWvMLi6sux
+
+Password: 8DAqMRcObU
+
+Server: remotemysql.com
+
+Port: 3306

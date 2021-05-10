@@ -1,0 +1,70 @@
+.midnight{
+    background-color: midnightblue;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background: #3c485f;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+@media only screen and (min-width: 500px) {
+    body{
+        background-color:white;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    body{
+        background-color:yellow;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    body{
+        background-color:black;
+    }
+}
+
+
+.full-height{
+    min-height: 100vh;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.margin-top-40{
+    margin-top: 40px;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.float-right{
+    float: right;
+}
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+

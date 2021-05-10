@@ -1,0 +1,39 @@
+
+
+<div class="row white-text">
+    <div class="margin-top-40">
+        <h5>¿Quieres subir tu propia narración o historia?</h5>
+        <h7>Puedes subir tu historia aqui</h7>
+        <p>Si quieres subir una historia puedes hacerlo aqui, pero antes para que sea publicada debe ser verificada por el administrador</p>
+    </div>
+
+    <form class="col s12 " method="POST" action="/addpost">
+        <div class="row ">
+            <div class="container white">
+                <div class="input-field col s12 margin-top-40">
+                    <input name='titulo' id="input_text" type="text" data-length="100">
+                    <label class="" for="input_text">Titulo</label>
+                </div>
+                <div class="input-field col s12">
+                    <textarea name='texto' id="textarea" class="materialize-textarea" data-length="12000"></textarea>
+                    <label for="textarea">Historia</label>
+                </div>
+                <div class="input-field col s12 ">
+                    <input name='autor' id="input_text" type="text" data-length="100">
+                    <label for="input_text">Autor</label>
+                </div>
+                <div class="center ">
+                    <button class="margin-bottom-30 midnight btn waves-effect waves-light margin-top-100" type="submit" >Subir
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('input#input_text, textarea#textarea').characterCounter();
+    });
+</script>
